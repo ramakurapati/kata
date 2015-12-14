@@ -12,6 +12,7 @@ Run Test report
 mvn surefire-report:report
 
 Executing Game with a give roll and a catetory
+==============================================
 mvn exec:java -Dexec.mainClass=kata.yahtzee.App -Dexec.args="6,1,6,6,6 fourkind"
 mvn exec:java -Dexec.mainClass=kata.yahtzee.App -Dexec.args="5,2,5,4,6 pair"
 mvn exec:java -Dexec.mainClass=kata.yahtzee.App -Dexec.args="6,6,6,6,6 yahtzee"
